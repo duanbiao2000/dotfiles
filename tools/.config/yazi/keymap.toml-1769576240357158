@@ -1,0 +1,9 @@
+[manager]
+prepend_keymap = [
+    # zoxide 交互式跳转
+    { on = [ "z" ], run = 'shell "zi" --block --confirm' },
+    
+    # 或者使用 fzf 选择目录后用 zoxide 跳转
+    { on = [ "Z" ], run = 'shell "cd $(fd -t d | fzf)" --block --confirm' },
+]
+

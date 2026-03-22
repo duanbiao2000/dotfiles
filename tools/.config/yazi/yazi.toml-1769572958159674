@@ -1,0 +1,14 @@
+[manager]
+show_hidden = true
+sort_by = "modified"
+
+[input]
+"a" = { "toggle_hidden" = "" }
+"t" = { "create" = "file" }
+"?" = { "help" = "" }
+"/" = { "find" = "forward" }
+"h" = { "back" = "" }
+"j" = { "down" = 1 }
+"k" = { "up" = 1 }
+"l" = { "enter" = "" }
+"d" = { "delete" = "" }
