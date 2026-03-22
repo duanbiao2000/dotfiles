@@ -1,0 +1,12 @@
+[user]
+	email = duanbiao2000@gmail.com
+	name = duanbiao2000
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	quotepath = false
+	autocrlf = input

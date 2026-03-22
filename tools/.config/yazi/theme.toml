@@ -1,0 +1,17 @@
+[flavor]
+#dark = "catppuccin-mocha"
+dark = "gruvbox-dark"
+
+[app]
+overall = { bg = "#282828" }  # 暖棕背景
+
+[mgr]
+selected = { fg = "#fabd2f", bold = true }  # 黄选中
+hovered = { fg = "#ebdbb2" }               # 米黄悬停
+
+[status]
+overall = { fg = "#ebdbb2", bg = "#3c3836" }  # 状态栏棕黄
+
+[mode]
+normal_main = { fg = "#b8bb26", bg = "#504945", bold = true }  # 绿模式
+

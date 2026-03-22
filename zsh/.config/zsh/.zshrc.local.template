@@ -1,0 +1,10 @@
+# =================================
+# 本地环境变量（不上传 git）
+# =================================
+
+# 解决 ANTHROPIC 环境变量冲突
+unset ANTHROPIC_AUTH_TOKEN
+# export ANTHROPIC_API_KEY="your-api-key-here"
+# export ANTHROPIC_BASE_URL="https://open.bigmodel.cn/api/anthropic"
+
+# export GITHUB_TOKEN="your-github-token-here"

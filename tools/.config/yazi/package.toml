@@ -1,0 +1,34 @@
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "9ef1254"
+hash = "92fbb5483657fa7976cdf4e0104e18e0"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:copy-file-contents"
+rev = "6f50636"
+hash = "99aa06d3014798d86001c324468d497f"
+
+[[plugin.deps]]
+use = "AnirudhG07/plugins-yazi:copy-file-contents"
+rev = "71545f4"
+hash = "f8530ee84fee95dbcc26bb1d8d8019c7"
+
+[[plugin.deps]]
+use = "AnirudhG07/rich-preview"
+rev = "573b275"
+hash = "c3e2871c9ef244fd181f203791f9b0d2"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "6f50636"
+hash = "8a7c58225816a163a6e8730c0adafbc8"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "ca61658"
+hash = "8eabb4e88096f10905a6df62cfaadbf4"
+
+[[flavor.deps]]
+use = "bennyyip/gruvbox-dark"
+rev = "619fdc5"
+hash = "d4c7003ec6dc4efd5d3a050d5c2f2575"

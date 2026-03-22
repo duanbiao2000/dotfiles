@@ -1,0 +1,32 @@
+[mgr]
+prepend_keymap = [
+    # ===== 书签管理 (Bookmarks) =====
+    # 保存当前位置为书签
+    { on = "b", run = "plugin bookmarks save", desc = "Save current position as a bookmark" },
+
+    # 跳转到已保存的书签
+    { on = "'", run = "plugin bookmarks jump", desc = "Jump to a bookmark" },
+
+    # 删除单个书签
+    { on = ["b", "d"], run = "plugin bookmarks delete", desc = "Delete a bookmark" },
+
+    # 删除所有书签
+    { on = ["b", "D"], run = "plugin bookmarks delete_all", desc = "Delete all bookmarks" },
+
+    # ===== 文件操作 (File Operations) =====
+    # 复制文件内容到系统剪贴板
+    { on = ["c", "v"], run = "plugin copy-file-contents", desc = "Copy file contents to clipboard" },
+
+    # ===== 视图切换 (View Toggle) =====
+	  { on = "T", run = "plugin toggle-pane min-preview", desc = "Show or hide the preview pane" },
+	  { on = "P", run = "plugin toggle-pane min-parent", desc = "Show or hide the parent pane" },
+
+	  # ===== 预览窗口滚动 (Preview Scroll) =====
+	  # PageUp/PageDown: 翻整页
+	  { on = "<PageUp>", run = "seek -20", desc = "Preview: scroll page up" },
+	  { on = "<PageDown>", run = "seek 20", desc = "Preview: scroll page down" },
+
+	  # Ctrl+U/Ctrl+D: 翻半页
+	  { on = "<C-u>", run = "seek -10", desc = "Preview: scroll half page up" },
+	  { on = "<C-d>", run = "seek 10", desc = "Preview: scroll half page down" },
+]

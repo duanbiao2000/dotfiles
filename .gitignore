@@ -1,0 +1,29 @@
+# 敏感文件（包含 API keys、tokens）
+local/
+**/.zshrc.local
+**/.zsh_history
+**/.bash_history
+
+# 缓存和临时文件
+**/.zcompdump*
+**/.netrwhist
+**/*.backup
+**/*.bak
+**/*~
+.DS_Store
+
+# TPM 插件
+tmux/.tmux/plugins/
+
+# Yazi 插件和缓存
+tools/.config/yazi/plugins/
+tools/.config/yazi/flavors/
+**/yazi.toml.*
+**/keymap.toml.*
+*.md.bak
+
+# Zellij 备份
+tools/.config/zellij/config.kdl.bak*
+
+# 主题和插件缓存
+# nvim/.config/nvim/lazy-lock.json
