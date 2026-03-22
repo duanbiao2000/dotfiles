@@ -10,7 +10,6 @@ export ZSH_THEME="powerlevel10k/powerlevel10k"
 # 合并插件列表（取并集）
 export plugins=(
   git
-  docker
   z
   zsh-autosuggestions
   zsh-syntax-highlighting
